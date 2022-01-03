@@ -1,7 +1,7 @@
 //ignore_for_file: avoid_print
 import 'dart:io';
 import 'dart:math';
-var list = <int>[];
+final list = <int>[];
 class Game {
   int? max;
   int? answer;

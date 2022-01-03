@@ -15,8 +15,9 @@ void main() {
           continue;
         }
         else if (input1 == 'n' || input1 == 'N') {
+          print("You have played "+ list.length.toString() + "rounds");
           for (var i = 0; i < list.length; i++) {
-            print("Game#${i+1} : "+list[i].toString()+" guesses");
+            print("Game#${i+1} : "  +list[i].toString()+" guesses");
           }
           break;
         }
